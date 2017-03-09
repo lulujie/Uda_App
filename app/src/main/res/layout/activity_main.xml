@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        android:layout_gravity="center"
+        android:id="@+id/textView"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/movie_button"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="@string/movie_button"
+        android:layout_gravity="center"
+        android:onClick="movie_func"/>
+    <Button
+        android:id="@+id/stock_button"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="@string/stock_button"
+        android:layout_gravity="center"
+        android:onClick="stock_func"/>
+    <Button
+        android:id="@+id/reader_button"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="@string/reader_button"
+        android:layout_gravity="center"
+        android:onClick="reader_func"/>
+    <Button
+        android:id="@+id/news_button"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="@string/news_button"
+        android:layout_gravity="center"
+        android:onClick="news_func"/>
+    <Button
+        android:id="@+id/design_button"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="@string/design_button"
+        android:layout_gravity="center"
+        android:onClick="design_func"/>
+
+</LinearLayout>

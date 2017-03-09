@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">我的应用作品集</string>
+    <string name="textview">纳米学位应用</string>
+    <string name="movie_button">热门电影</string>
+    <string name="stock_button">股市雄鹰</string>
+    <string name="reader_button">XYZ阅读器</string>
+    <string name="news_button">最新闻</string>
+    <string name="design_button">毕业设计</string>
+
+</resources>
